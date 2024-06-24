@@ -8,8 +8,10 @@ This program is a simple contract written in Solidity, a programming language us
 # Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at Remix Ethereum.
 
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-contract MyToken{
+
+contract MyToken {
 
     // public variables
     bytes32 public Name = "Michael_Jackson";
